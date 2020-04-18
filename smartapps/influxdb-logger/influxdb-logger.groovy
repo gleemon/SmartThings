@@ -790,8 +790,13 @@ private escapeStringForInfluxDB(str) {
 private getGroupName(id) {
 
     if (id == null) {return 'Home'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Kitchen'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Lounge'}
-    else if (id == 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX') {return 'Office'}
+    else if (id == '5ab6c09a-6128-4edf-b2a3-8498a14bd93e') {return 'Great Room'}
+    else if (id == '8487d9b5-9d18-46cc-b90a-2fb2fa17264f') {return 'Attic'}
+    else if (id == '9bfa3ad5-ebb2-46b0-ad57-3e851b446064') {return 'Garage'}
+    else if (id == 'c0d9be5e-8d85-4402-a0db-c88d737d206d') {return 'Hubs'}
+    else if (id == 'c86aae23-4db9-4554-ab07-95715fd06238') {return 'Studio'}
+    else if (id == 'cbfaa58c-41dd-4159-a8db-e04428f8a6c6') {return 'Entry'}
+    else if (id == 'cc8c46ca-5d76-4c5d-81eb-c899d348a8a9') {return 'Upstairs'}
+    else if (id == 'e2b825c3-179e-4fb6-9afb-c16a9e388d23') {return 'Suzan-Office'}	
     else {return 'Unknown'}    
 }
